@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Travel</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- icons fontawsome files importing -->
+    <link href="/assets/fontawsome/css/fontawesome.css" rel="stylesheet" />
+    <link href="/assets/fontawsome/css/brands.css" rel="stylesheet" />
+    <link href="/assets/fontawsome/css/solid.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="assets/logo.png" id="logo_img"></a>
+            </div>
+            <div class="links">
+                <a href="index.html" class="NavHome"><i class="fa-solid fa-house"></i> Home</a>
+                <!-- Dropdown link -->
+                <a href="" class="dropdown-toggle" ><i class="fa-solid fa-plane-departure"></i> Trips <i class="fa-solid fa-caret-down"></i></a>
+                <!-- dropdown menu.... For now it is hidden -->
+                    <ul class="dropdown" >
+                        <li><a href="#">Honeymoon</a></li>
+                        <li><a href="#">Family</a></li>
+                        <li><a href="#">Small Budget</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                <a href="#destination" class="nav-link nav-link-ltr"><i class="fa-solid fa-location-dot"></i> Destinations</a>
+                <a href="#services" class="nav-link nav-link-ltr"><i class="fa-solid fa-handshake"></i> Our Services</a>
+                <a href="#reviews" class="nav-link nav-link-ltr"><i class="fa-solid fa-star"></i> Reviews</a>
+                <a href="#gallery" class="nav-link nav-link-ltr"><i class="fa-solid fa-image"></i> Gallery</a>
+                <a href="" class="nav-link nav-link-ltr"><i class="fa-solid fa-circle-question"></i> Contacts</a>
+                <a href="" class="nav-link nav-link-ltr"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+                <!-- hamburger Menu Icon -->
+                <a href="" class="hamburger_menu">
+                    <i class="fa-solid fa-bars"></i>
+                </a> 
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <header>
+        <!-- background img -->
+        <div class="header_img">
+                <img src="assets/header_img5.png" id="header_img"  width="100%">
+        </div>
+        <div class="header_img1">
+            <img src="assets/travel_gallery_img (6).jpg" id="header_img"  width="100%">
+        </div>
+        <!-- header text button and testimonial image -->
+        <div class="header_text">
+            <img src="assets/expressTravelText.png" alt="">
+        </div>
+        <div class="header_paragraph">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, aut veniam 
+            nemo nihil et laborum voluptatibus.
+        </div>
+        <div class="button">
+            <a href="" id="button">Book A Trip Now <i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+            
+        <div class="testimonial">
+            <img src="assets/testimonial2.png" alt="">
+        </div>
+    </header>
+
+    <!-- Top Destination section -->
+    <a name="destination"></a> <section class="section">
+        <!-- destination section title -->
+            <h1 class="section_heading">
+                Popular 
+                <div>
+                    <span>Destinations</span></h1>
+                </div>
+
+            <h3 class="section_title">"Dive into the Beauty of World"</h3>
+<!-- Destination images -->
+        <div class="destination">
+
+            <!-- first destination -->
+            <div class="destination_img">
+                <img src="assets/beach.jpg" alt="">
+                <div class="img_location">
+                    <h1>Thailand</h1>
+                </div>
+                <div class="img_des">
+                    <h1><i class="fa-solid fa-location-dot"></i> Beach Resort</h1>
+                    <p>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. 
+                        Omnis <br>architecto sequi molestiae ea <br>nesciunt, sint , tenetur!</p><br>
+                    <p align="left"><i class="fa-solid fa-circle-check"></i> 2 Nights/ 3 Days</p>
+                    <p align="left"><i class="fa-solid fa-circle-check"></i> 30000/-</p>
+                </div>
+            </div>
+
+            <!-- second destination -->
+            <div class="destination_img">
+                <img src="assets/canal.jpg" alt="">
+                <div class="img_location">
+                    <h1>Italy</h1>
+                </div>
+                <div class="img_des">
+                    <h1><i class="fa-solid fa-location-dot"></i> Canal Boating</h1>
+                    <p>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. 
+                        Omnis <br>architecto sequi molestiae ea <br>nesciunt, sint , tenetur!</p><br>
+                    <p align="left"><i class="fa-solid fa-circle-check"></i> 2 Hours Boating</p>
+                    <p align="left"><i class="fa-solid fa-circle-check"></i> 300/- (per head)</p>
+                </div>
+            </div>
+
+            <!-- third destination -->
+            <div class="destination_img">
+                <img src="assets/sky.jpg" alt="">
+                <div class="img_location">
+                    <h1>Manali</h1>
+                </div>
+                <div class="img_des">
+                    <h1><i class="fa-solid fa-location-dot"></i> View Point</h1>
+                    <p>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. 
+                        Omnis <br>architecto sequi molestiae ea <br>nesciunt, sint , tenetur!</p><br>
+                    <p align="left"><i class="fa-solid fa-circle-check"></i> 2 Hours</p>
+                    <p align="left"><i class="fa-solid fa-circle-check"></i> 200/- (per head)</p>
+                </div>
+            </div>
+            
+            <!-- fourth destination -->
+            <div class="destination_img">
+                <img src="assets/mountain.jpg" alt="">
+                <div class="img_location">
+                    <h1>Kilimanjaro</h1>
+                </div>
+                <div class="img_des">
+                    <h1><i class="fa-solid fa-location-dot"></i> Trekking</h1>
+                    <p>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. 
+                        Omnis <br>architecto sequi molestiae ea <br>nesciunt, sint , tenetur!</p><br>
+                    <p align="left"><i class="fa-solid fa-circle-check"></i> 9:00 AM to 5:00 PM</p>
+                    <p align="left"><i class="fa-solid fa-circle-check"></i> 100/- (Per Head)</p>
+                </div>
+            </div>
+
+            <!-- fifth destination -->
+            <div class="destination_img">
+                <img src="assets/beach3.jpg" alt="">
+                <div class="img_location">
+                    <h1>Varkala Beach</h1>
+                </div>
+                 <div class="img_des">
+                    <h1><i class="fa-solid fa-location-dot"></i> Beach Sunset View </h1>
+                    <p>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. 
+                        Omnis <br>architecto sequi molestiae ea <br>nesciunt, sint , tenetur!</p><br>
+                    <p align="left"><i class="fa-solid fa-circle-check"></i> Any Time</p>
+                </div>
+            </div>    
+
+            <!-- sixth destination -->
+            <div class="destination_img">
+                <img src="assets/watterfall.jpg" alt="">
+                <div class="img_location">
+                    <h1>Canada</h1>
+                </div>
+                 <div class="img_des">
+                    <h1><i class="fa-solid fa-location-dot"></i> Virginia Falls </h1>
+                    <p>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. 
+                        Omnis <br>architecto sequi molestiae ea <br>nesciunt, sint , tenetur!</p><br>
+                    <p align="left"><i class="fa-solid fa-circle-check"></i> Any Time</p>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+
+<!-- Our Services -->
+    <a name="services"></a>
+    <section class="section">
+        <!-- service section title -->
+            <h1 class="section_heading">Our 
+                <div>
+                    <span>Services</span></h1>
+                </div>
+                <h3 class="section_title">"Explore top destinations with our experts"</h3>
+
+
+        <!-- Services -->
+        <div class="service">
+
+            <!--Hotel Booking  -->
+            <div class="service_box">
+                <center>
+                    <h1>Hotel Booking</h1>
+                    <img src="assets/hotel.gif" alt="" id="gif">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad pariatur nisi mollitia totam laborum! Et,
+                         voluptas neque ab ipsa, aut dolore maiores veniam velit obcaecati quia culpa quas possimus  quaerat.</p><br>
+                         <a href="" id="button">Know More</a>
+                </center>
+            </div>
+
+            <!-- Guides -->
+            <div class="service_box">
+                <center>
+                    <h1>Friendly Guides</h1>
+                    <img src="assets/tour-guide.gif" alt="" id="gif">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad pariatur nisi mollitia totam laborum! Et,
+                         voluptas neque ab ipsa, aut dolore maiores veniam velit obcaecati quia culpa quas possimus  quaerat.</p><br>
+                         <a href="" id="button">Know More</a>
+                </center>
+            </div>
+
+            <!-- Visa -->
+            <div class="service_box">
+                <center>
+                    <h1>Visa Assistance</h1>
+                    <img src="assets/nomad-visa.gif" alt="" id="gif">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad pariatur nisi mollitia totam laborum! Et,
+                         voluptas neque ab ipsa, aut dolore maiores veniam velit obcaecati quia culpa quas possimus  quaerat.</p><br>
+                         <a href="" id="button">Know More</a>
+                </center>
+            </div>
+        </div>        
+    </section>
+    
+
+
+    
+<!-- Reviews -->
+<a name="reviews"></a>
+<section class="section">
+    <!-- review section title -->
+        <h1 class="section_heading">Your 
+            <div>
+                <span>Reviews</span></h1>
+            </div>
+            <h3 class="section_title">"Journey Through Our Clients’ Eyes"</h3>
+
+            <!-- Reviews -->
+            <div class="review">
+
+                <!-- First Review -->
+                <div class="review_of_a_person">
+                    <div class="profile">LD</div>
+                    <div class="review_text">
+                            Lori David<br>
+                            <span>loridavid1402@gmail.com</span><br>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>Express Travels, I must say, I was thoroughly impressed.
+                                 As a travel agency, they offer a wide range of options and packages to suit different preferences and budgets.</p>
+                    </div>
+                </div>
+
+                <!-- Second review -->
+                <div class="review_of_a_person">
+                    <div class="profile">ML</div>
+                    <div class="review_text">
+                            Mary Lorence<br>
+                            <span>mary123@gmail.com</span><br>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>One thing that stood out to me was the professionalism and friendliness of their guides. 
+                                They were knowledgeable about the destinations we visited.</p>
+                    </div>
+                </div>
+
+                  <!-- third review -->
+                  <div class="review_of_a_person">
+                    <div class="profile">RJ</div>
+                    <div class="review_text">
+                            Rick Johnson<br>
+                            <span>rickisalive@gmail.com</span><br>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>The booking process was smooth and hassle-free. 
+                                Their team was also prompt in responding to any inquiries or concerns I had prior to the trip.</p>
+                    </div>
+                </div>
+
+                  <!-- fourth review -->
+                <div class="review_of_a_person mobile_visibility">
+                    <div class="profile">AR</div>
+                    <div class="review_text">
+                            Arjun Raghavan<br>
+                            <span>arjun2332@gmail.com</span><br>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>My experience with Express Travels was excellent, and I would highly recommend 
+                                them to anyone looking for a reliable and friendly travel agency.</p>
+                    </div>
+                </div>
+
+                   <!-- fifth review -->
+                <div class="review_of_a_person mobile_visibility">
+                    <div class="profile">AR</div>
+                    <div class="review_text">
+                            Arjun Raghavan<br>
+                            <span>arjun2332@gmail.com</span><br>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>My experience with Express Travels was excellent, and I would highly recommend 
+                                them to anyone looking for a reliable and friendly travel agency.</p>
+                    </div>
+                </div>
+            
+                   <!-- sixth review -->
+                   <div class="review_of_a_person mobile_visibility">
+                    <div class="profile">AR</div>
+                    <div class="review_text">
+                            Arjun Raghavan<br>
+                            <span>arjun2332@gmail.com</span><br>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <p>My experience with Express Travels was excellent, and I would highly recommend 
+                                them to anyone looking for a reliable and friendly travel agency.</p>
+                    </div>
+                </div>
+
+                  
+            </div>
+            <br><br>
+            
+            <!-- Read more button -->
+
+            <center>
+                <a href="" id="button">Read More <i class="fa-solid fa-angle-down"></i></a>
+            </center>
+</section>
+
+
+
+
+    
+<!-- Gallery -->
+<a name="gallery"></a>
+<section class="section">
+    <!-- gallery section title -->
+        <h1 class="section_heading">Travel 
+            <div>
+                <span>Gallery</span></h1>
+            </div><br>
+            <h3 class="section_title">"Discover Destinations Through Images"</h3>
+
+            <!-- Reviews -->
+            <div class="gallery">
+                <!-- Coulmn 1 -->
+                <div class="gallery_column">
+                    <div class="image">
+                        <img src="assets/travel_gallery_img (1).jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/travel_gallery_img (2).jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/travel_gallery_img (12).jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Coulmn 2 -->
+                <div class="gallery_column">
+                    <div class="image">
+                        <img src="assets/travel_gallery_img (4).jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/travel_gallery_img (5).jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/travel_gallery_img (6).jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Coulmn 2 -->
+                <div class="gallery_column">
+                    <div class="image">
+                        <img src="assets/travel_gallery_img (7).jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/travel_gallery_img (8).jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/travel_gallery_img (9).jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <!-- View more button -->
+            <center>
+                <a href="" id="button">View More <i class="fa-solid fa-angle-down"></i></a>
+            </center>
+</section>
+
+
+
+    <!-- script file importing -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
